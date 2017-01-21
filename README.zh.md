@@ -127,8 +127,6 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
  
-内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
-
 
 #### Friends
 
@@ -168,7 +166,7 @@ iframe:     "http://huangxuan.me/js-module-7day/"
 ---
 ```
 
-iframe在不同的设备中，将会自动的调整大小。保留内边距是为了让手机用户可以向下滑动，以及添加更多的内容。
+if rame在不同的设备中，将会自动的调整大小。保留内边距是为了让手机用户可以向下滑动，以及添加更多的内容。
 
 
 #### Comment
